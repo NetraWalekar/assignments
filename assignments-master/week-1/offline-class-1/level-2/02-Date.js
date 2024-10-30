@@ -26,3 +26,15 @@ function dateMethods() {
 
 // Example Usage for Date Methods
 dateMethods();
+
+function date(){
+  const cd = new Date();
+  console.log("current date is :" , cd.getDate());
+  console.log("current month is :" , cd.getMonth() + 1);
+  console.log("current fullyear is :" ,cd.getFullYear());
+  console.log("current hour is :" , cd.getHours());
+  console.log("current time is :" , cd.getTime());
+  console.log("current time is :" , cd.getTimezoneOffset());
+}
+
+date();

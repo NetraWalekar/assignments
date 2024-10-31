@@ -14,6 +14,9 @@ function pushExample(arr, element) {
 }
 pushExample([1, 2, 3], 4);
 
+
+array.unshift();
+console.log(array)
 // pop()
 function popExample(arr) {
   console.log("Original Array:", arr);
@@ -39,7 +42,7 @@ function unshiftExample(arr, element) {
   arr.unshift(element);
   console.log("After unshift:", arr);
 }
-unshiftExample([1, 2, 3], 0);
+unshiftExample([1, 2, 3], 0.5);
 
 // concat()
 function concatExample(arr1, arr2) {
@@ -103,3 +106,7 @@ function sortExample(arr) {
   console.log("After sort:", arr);
 }
 sortExample([5, 2, 3, 4, 1]);
+
+let array = [55,7,4,6,34,76,2,67,45,8,5,7]
+array.sort((a,b) => a-b);
+console.log(array)
